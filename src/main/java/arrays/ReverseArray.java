@@ -12,9 +12,7 @@ public class ReverseArray {
             temp[i] = arr[arr.length - i - 1];
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = temp[i];
-        }
+        System.arraycopy(temp, 0, arr, 0, arr.length);
 
         System.out.println(Arrays.toString(arr));
 
