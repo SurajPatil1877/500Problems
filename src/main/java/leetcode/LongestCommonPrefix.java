@@ -19,8 +19,6 @@ public class LongestCommonPrefix {
         //String[] strs = {"flower", "flow", "flight"};
         String[] strs = {"dog","racecar","car"};
 
-
-
         String keyword;
 
         List<String> commonList = new ArrayList<>();
