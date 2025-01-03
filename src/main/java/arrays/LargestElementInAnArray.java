@@ -23,7 +23,7 @@ public class LargestElementInAnArray {
 
         Collections.sort(collect);
 
-        System.out.println(collect.getLast());
+//        System.out.println(collect.getLast());
 
 
     }
